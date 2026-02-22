@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
-  const winviewGradient = 'from-[#7b5aff] to-[#5ecbf7]';
+  const winviewGradient = 'from-[#10B981] to-[#34D399]';
 
   const faqs = [
     {
@@ -39,7 +39,7 @@ export default function FAQSection() {
   return (
     <section className="py-32 px-6 bg-[#FAF7F2] relative overflow-hidden">
       {/* Background Blur */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#7b5aff]/5 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#10B981]/5 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
         {/* Header Now On Top */}
@@ -63,7 +63,7 @@ export default function FAQSection() {
               onClick={() => setOpenIndex(index === openIndex ? null : index)}
               className={`bg-white/80 backdrop-blur-md rounded-[24px] cursor-pointer transition-all duration-300 border border-transparent ${
                 openIndex === index
-                  ? 'shadow-lg scale-[1.01] border-purple-100'
+                  ? 'shadow-lg scale-[1.01] border-emerald-100'
                   : 'shadow-sm hover:shadow-md hover:border-white/50'
               }`}
             >
@@ -71,7 +71,7 @@ export default function FAQSection() {
                 <div className="flex items-center justify-between mb-2">
                   <h3
                     className={`text-xl font-semibold transition-colors duration-300 ${
-                      openIndex === index ? 'text-[#7b5aff]' : 'text-[#1D1D1F]'
+                      openIndex === index ? 'text-[#10B981]' : 'text-[#1D1D1F]'
                     }`}
                   >
                     {faq.question}
@@ -105,9 +105,9 @@ export default function FAQSection() {
         </div>
             <a
           href="/complaints"
-          className="group flex items-center justify-center gap-2 text-[#7b5aff] font-medium hover:gap-3 transition-all mx-auto mt-6"
+          className="group flex items-center justify-center gap-2 text-[#10B981] font-medium hover:gap-3 transition-all mx-auto mt-6"
         >
-          <span className="border-b border-transparent group-hover:border-[#7b5aff]">
+          <span className="border-b border-transparent group-hover:border-[#10B981]">
             Contact Support
           </span>
           <ArrowRight size={18} />

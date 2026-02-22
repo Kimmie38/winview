@@ -106,7 +106,7 @@ export function IppisFormStep({ ippisForm, onChange, onCompleteSections }) {
           </div>
           <div className="w-full h-1.5 bg-[#E5E5E7] rounded-full overflow-hidden">
             <div
-              className="h-full bg-[#007AFF] rounded-full transition-all"
+              className="h-full bg-[#10B981] rounded-full transition-all"
               style={{ width: `${progressPct}%` }}
             />
           </div>
@@ -333,8 +333,8 @@ export function IppisFormStep({ ippisForm, onChange, onCompleteSections }) {
                   key={opt.key}
                   className={`flex items-center gap-3 px-4 py-3 rounded-2xl border cursor-pointer transition-colors ${
                     ippisForm.automobileType === opt.key
-                      ? 'border-[#7b5aff] bg-[#7b5aff]/5'
-                      : 'border-[#E5E5E7] hover:border-[#7b5aff]/40'
+                      ? 'border-[#10B981] bg-[#10B981]/5'
+                      : 'border-[#E5E5E7] hover:border-[#10B981]/40'
                   }`}
                 >
                   <input

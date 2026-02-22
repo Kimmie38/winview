@@ -18,7 +18,7 @@ export default function SavingsPage() {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => setIsVisible(true), []);
 
-  const winviewGradient = 'from-[#8A2BE2] to-[#00BFFF]';
+  const winviewGradient = 'from-[#10B981] to-[#34D399]';
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] relative overflow-hidden">
@@ -31,19 +31,19 @@ export default function SavingsPage() {
         <div className="absolute inset-0 bg-gradient-to-br from-[#FAF7F2]/90 to-[#FAF7F2]/70" />
       </div>
 
-      <div className="absolute top-[-30%] right-[-10%] w-[800px] h-[800px] bg-[#8A2BE2]/15 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
-      <div className="absolute bottom-[-20%] left-[-10%] w-[700px] h-[700px] bg-[#00BFFF]/15 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
+      <div className="absolute top-[-30%] right-[-10%] w-[800px] h-[800px] bg-[#10B981]/15 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
+      <div className="absolute bottom-[-20%] left-[-10%] w-[700px] h-[700px] bg-[#34D399]/15 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
 
       <Header />
 
       <main className="relative z-10 pt-28 pb-20 px-6">
         <div className={`max-w-[1100px] mx-auto transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
           <div className="text-center mb-8">
-            <div className="w-24 h-24 bg-gradient-to-br from-[#8A2BE2] to-[#00BFFF] rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-2xl shadow-[#8A2BE2]/30">
+            <div className="w-24 h-24 bg-gradient-to-br from-[#10B981] to-[#34D399] rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-2xl shadow-[#10B981]/30">
               <PiggyBank size={42} className="text-white" strokeWidth={2} />
             </div>
             <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/80 backdrop-blur border border-white/60 shadow-sm mb-6">
-              <Sparkles size={18} className="text-[#8A2BE2]" />
+              <Sparkles size={18} className="text-[#10B981]" />
               <span className="text-sm font-medium text-[#1D1D1F]">Savings Plans</span>
             </div>
             <h1 className="text-[44px] md:text-[56px] font-semibold text-[#1D1D1F] tracking-tight leading-[1.05]">
@@ -56,7 +56,7 @@ export default function SavingsPage() {
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#plans"
-                className={`px-8 py-4 rounded-full text-white bg-gradient-to-r ${winviewGradient} font-medium shadow-lg shadow-[#8A2BE2]/25 hover:scale-105 transition-all duration-300 active:scale-95`}
+                className={`px-8 py-4 rounded-full text-white bg-gradient-to-r ${winviewGradient} font-medium shadow-lg shadow-[#10B981]/25 hover:scale-105 transition-all duration-300 active:scale-95`}
               >
                 Explore Plans
               </a>
@@ -92,8 +92,8 @@ export default function SavingsPage() {
                 rate: '14% p.a.',
                 desc: 'Longer term commitment for maximum returns.',
                 icon: Vault,
-                iconBg: 'from-[#8A2BE2] to-[#AF52DE]',
-                color: '#8A2BE2',
+                iconBg: 'from-[#10B981] to-[#34D399]',
+                color: '#10B981',
               },
             ].map((p, i) => (
               <div

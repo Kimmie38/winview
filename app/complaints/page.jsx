@@ -17,7 +17,7 @@ export default function ComplaintsPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
-  const winviewGradient = 'from-[#7b5aff] to-[#5ecbf7]';
+  const winviewGradient = 'from-[#10B981] to-[#34D399]';
 
   const handleInputChange = (e) => {
     setFormData({

@@ -12,19 +12,19 @@ export default function AboutPage() {
           className="w-full h-full object-cover mix-blend-overlay"
         />
       </div>
-      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#7b5aff]/10 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
-      <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-[#5ecbf7]/10 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
+      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#10B981]/10 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
+      <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-[#34D399]/10 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
 
       <Header />
 
       <section className="relative z-10 pt-32 pb-14 px-6 overflow-hidden">
-        <div className="absolute top-[-20%] right-[-10%] w-[700px] h-[700px] bg-gradient-to-br from-[#8A2BE2]/25 to-cyan-300/25 rounded-full blur-[110px]" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] bg-gradient-to-tr from-[#007AFF]/20 to-[#5AC8FA]/20 rounded-full blur-[100px]" />
+        <div className="absolute top-[-20%] right-[-10%] w-[700px] h-[700px] bg-gradient-to-br from-[#10B981]/25 to-emerald-300/25 rounded-full blur-[110px]" />
+        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] bg-gradient-to-tr from-[#10B981]/20 to-[#34D399]/20 rounded-full blur-[100px]" />
 
         <div className="max-w-[1100px] mx-auto relative z-10">
           <div className="text-center max-w-[820px] mx-auto">
             <span className="inline-flex items-center gap-2 pl-2 pr-3 py-1 bg-white/70 backdrop-blur-md border border-white/50 rounded-full text-[12px] text-[#1D1D1F] mb-5">
-              <span className="bg-[#8A2BE2] text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
+              <span className="bg-[#10B981] text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
                 About
               </span>
               Our vision at Winview Microfinance Bank
