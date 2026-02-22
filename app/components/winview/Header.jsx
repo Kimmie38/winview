@@ -1,6 +1,7 @@
 'use client';
 
 import useUser from '@/utils/useUser';
+import Image from 'next/image';
 import { useQuery } from '@tanstack/react-query';
 import { ChevronDown, Menu, Phone, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -53,14 +54,15 @@ export default function Header() {
             <div className="flex items-center gap-3 group">
               <a href="/" className="flex items-center gap-2 transition-all duration-300">
                 <div className="relative">
-                  <div className="w-[58px] h-[58px] lg:w-[68px] lg:h-[68px] rounded-xl overflow-hidden shadow-sm">
-                    <img
-                      src="https://ucarecdn.com/a074ace0-7537-49fc-8fc2-efaa47ded78a/-/crop/512x512/center/-/quality/smart/-/format/auto/"
-                      alt="Winview Logo"
-                      className="w-full h-full object-cover"
-                      decoding="async"
-                    />
-                  </div>
+                 <div className="w-[58px] h-[58px] lg:w-[68px] lg:h-[68px] rounded-xl overflow-hidden shadow-sm">
+                  <Image
+                    src="/2.png"
+                    alt="Winview Logo"
+                    width={120}
+                    height={40}
+                    className="object-cover"
+                  />
+                </div>
                 </div>
 
                 <div className="flex flex-col leading-tight">
