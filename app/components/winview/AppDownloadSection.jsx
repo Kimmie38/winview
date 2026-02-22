@@ -121,7 +121,7 @@ export default function AppDownloadSection() {
       name: 'Apple Store',
       amount: '-₦1,099',
       time: '2:34 PM',
-      color: 'bg-blue-500',
+      color: 'bg-emerald-500',
     },
     {
       icon: '💰',
@@ -149,13 +149,13 @@ export default function AppDownloadSection() {
   return (
  <section
       id="app-coming-soon"
-      className="py-32 px-6 bg-gradient-to-br from-blue-50 via-white to-indigo-50 overflow-hidden relative"
+      className="py-32 px-6 bg-gradient-to-br from-emerald-50 via-white to-emerald-50 overflow-hidden relative"
       ref={sectionRef}
     >
       {/* Light Theme Background Glows */}
-      <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-gradient-to-br from-blue-400/40 to-cyan-300/30 rounded-full blur-[120px] animate-pulse-slow" />
-      <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-gradient-to-tl from-indigo-400/40 to-purple-300/30 rounded-full blur-[120px] animate-pulse-slow" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-gradient-to-r from-blue-300/20 to-indigo-300/20 rounded-full blur-[100px] animate-breathe" />
+      <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-gradient-to-br from-emerald-400/40 to-emerald-300/30 rounded-full blur-[120px] animate-pulse-slow" />
+      <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-gradient-to-tl from-emerald-400/40 to-emerald-300/30 rounded-full blur-[120px] animate-pulse-slow" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-gradient-to-r from-emerald-300/20 to-emerald-300/20 rounded-full blur-[100px] animate-breathe" />
 
       <div className="w-full px-6 mx-auto relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
@@ -163,18 +163,18 @@ export default function AppDownloadSection() {
           {/* LEFT CONTENT */}
           <div className="text-center lg:text-left">
 
-            <div className="inline-flex items-center gap-2 pl-2 pr-3 py-1 bg-white border border-blue-100 rounded-full mb-4 text-blue-800 shadow-sm">
-              <span className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
+            <div className="inline-flex items-center gap-2 pl-2 pr-3 py-1 bg-white border border-emerald-100 rounded-full mb-4 text-emerald-800 shadow-sm">
+              <span className="bg-gradient-to-r from-emerald-500 to-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
                 Soon
               </span>
               <span className="text-[12px] opacity-80">Launching on iOS and Android</span>
             </div>
 
-            <h2 className="anim-heading text-[48px] md:text-[64px] font-semibold text-blue-900 mb-6 tracking-tight leading-[1.1]">
+            <h2 className="anim-heading text-[48px] md:text-[64px] font-semibold text-emerald-900 mb-6 tracking-tight leading-[1.1]">
               The bank in <br /> your pocket.
             </h2>
 
-            <p className="anim-text-left delay-100 text-xl text-blue-700 mb-10 max-w-lg mx-auto lg:mx-0">
+            <p className="anim-text-left delay-100 text-xl text-emerald-700 mb-10 max-w-lg mx-auto lg:mx-0">
               Our mobile app is in the final stretch. Be the first to experience seamless,
               secure banking on the go.
             </p>
@@ -184,12 +184,12 @@ export default function AppDownloadSection() {
               <button
                 type="button"
                 disabled
-                className="group flex items-center gap-4 px-6 py-3 bg-white border border-blue-100 rounded-2xl shadow-sm opacity-70 cursor-not-allowed"
+                className="group flex items-center gap-4 px-6 py-3 bg-white border border-emerald-100 rounded-2xl shadow-sm opacity-70 cursor-not-allowed"
               >
-                <Apple size={36} className="text-blue-900" />
-                <div className="text-left text-blue-900">
-                  <div className="text-[11px] opacity-60 uppercase tracking-wide">App Store</div>
-                  <div className="text-[19px] font-semibold leading-tight flex items-center gap-2">
+                <Apple size={36} className="text-emerald-900" />
+                <div className="text-left text-emerald-900">
+                  <div className="text-[11px] opacity-60 uppercase tracking-wide text-emerald-900">App Store</div>
+                  <div className="text-[19px] font-semibold leading-tight flex items-center gap-2 text-emerald-900">
                     Coming Soon <Clock size={16} className="opacity-70 animate-spin-slow" />
                   </div>
                 </div>
@@ -198,24 +198,24 @@ export default function AppDownloadSection() {
               <button
                 type="button"
                 disabled
-                className="group flex items-center gap-4 px-6 py-3 bg-white border border-blue-100 rounded-2xl shadow-sm opacity-70 cursor-not-allowed"
+                className="group flex items-center gap-4 px-6 py-3 bg-white border border-emerald-100 rounded-2xl shadow-sm opacity-70 cursor-not-allowed"
               >
-                <Smartphone size={36} className="text-blue-900" />
-                <div className="text-left text-blue-900">
-                  <div className="text-[11px] opacity-60 uppercase tracking-wide">Google Play</div>
-                  <div className="text-[19px] font-semibold leading-tight flex items-center gap-2">
+                <Smartphone size={36} className="text-emerald-900" />
+                <div className="text-left text-emerald-900">
+                  <div className="text-[11px] opacity-60 uppercase tracking-wide text-emerald-900">Google Play</div>
+                  <div className="text-[19px] font-semibold leading-tight flex items-center gap-2 text-emerald-900">
                     Coming Soon <Clock size={16} className="opacity-70 animate-spin-slow" />
                   </div>
                 </div>
               </button>
             </div>
 
-            <div className="anim-fade delay-300 flex items-center justify-center lg:justify-start gap-4 border-t border-blue-100 pt-8 text-blue-700 text-sm">
+            <div className="anim-fade delay-300 flex items-center justify-center lg:justify-start gap-4 border-t border-emerald-100 pt-8 text-emerald-700 text-sm">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                 <span>Final testing underway</span>
               </div>
-              <div className="w-px h-6 bg-blue-100" />
+              <div className="w-px h-6 bg-emerald-100" />
               <div>Join us now and get notified at launch</div>
             </div>
           </div>
@@ -223,7 +223,7 @@ export default function AppDownloadSection() {
           {/* Enhanced Visual Side - Interactive 3D Phone */}
           <div className="relative h-[600px] flex items-center justify-center">
             {/* Enhanced Phone Back Glow */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#007AFF] via-[#5856D6] to-[#007AFF] opacity-40 blur-[100px] rounded-full animate-breathe" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#10B981] via-[#059669] to-[#10B981] opacity-40 blur-[100px] rounded-full animate-breathe" />
 
             {/* Enhanced floating particles with better animations */}
             <div className="absolute inset-0 pointer-events-none">
@@ -239,7 +239,7 @@ export default function AppDownloadSection() {
                   path: 'float-particle-2',
                 },
                 {
-                  icon: <CreditCard size={18} className="text-blue-400" />,
+                  icon: <CreditCard size={18} className="text-emerald-400" />,
                   delay: '2s',
                   path: 'float-particle-3',
                 },
@@ -281,7 +281,7 @@ export default function AppDownloadSection() {
                 style={{
                   transform: `rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg) scale(${tilt.scale}) translateZ(${isHovering ? '20px' : '0px'})`,
                   boxShadow: isHovering
-                    ? '0 40px 80px -12px rgba(0, 122, 255, 0.4), 0 20px 40px -8px rgba(0, 0, 0, 0.3)'
+                    ? '0 40px 80px -12px rgba(16, 185, 129, 0.4), 0 20px 40px -8px rgba(0, 0, 0, 0.3)'
                     : '0 30px 60px -12px rgba(0, 0, 0, 0.25)',
                 }}
               >
@@ -293,7 +293,7 @@ export default function AppDownloadSection() {
                 {/* Screen Content with enhanced animations */}
                 <div className="w-full h-full bg-white flex flex-col relative overflow-hidden">
                   {/* Enhanced Header with dynamic shine and gradient */}
-                  <div className="relative bg-gradient-to-br from-[#007AFF] to-[#5856D6] p-6 pt-14 text-white overflow-hidden">
+                  <div className="relative bg-gradient-to-br from-[#10B981] to-[#059669] p-6 pt-14 text-white overflow-hidden">
                     {/* Animated background patterns */}
                     <div className="absolute inset-0 opacity-20">
                       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.4),transparent_50%)] animate-gradientShift" />
@@ -339,7 +339,7 @@ export default function AppDownloadSection() {
                         {
                           action: 'Send',
                           icon: <Send size={16} />,
-                          color: 'bg-blue-500',
+                          color: 'bg-emerald-500',
                         },
                         {
                           action: 'Request',
@@ -417,7 +417,7 @@ export default function AppDownloadSection() {
                       <div
                         key={i}
                         className={`w-6 h-6 rounded-full transition-all duration-300 ${
-                          i === 1 ? 'bg-[#007AFF] scale-110' : 'bg-gray-300 hover:bg-gray-400'
+                          i === 1 ? 'bg-[#10B981] scale-110' : 'bg-gray-300 hover:bg-gray-400'
                         }`}
                       />
                     ))}
@@ -427,7 +427,7 @@ export default function AppDownloadSection() {
                 {/* Enhanced glow ring with pulsing effect */}
                 <div
                   className={`pointer-events-none absolute inset-0 rounded-[52px] ring-4 transition-all duration-700 ${
-                    isHovering ? 'ring-[#007AFF]/30 scale-105' : 'ring-[#007AFF]/0'
+                    isHovering ? 'ring-[#10B981]/30 scale-105' : 'ring-[#10B981]/0'
                   }`}
                 />
               </div>

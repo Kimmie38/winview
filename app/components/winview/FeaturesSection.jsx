@@ -12,18 +12,18 @@ import {
 
 export default function FeaturesSection() {
   return (
-    <section className="py-20 lg:py-32 px-6 bg-blue-50">
+    <section className="py-20 lg:py-32 px-6 bg-emerald-50">
       <div className="w-full px-6 mx-auto">
         <div className="mb-16 lg:mb-20">
           <h2
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 tracking-tight leading-tight"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold text-emerald-900 tracking-tight leading-tight"
             style={{
               fontFamily:
                 '-apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif',
             }}
           >
             Powerful features. <br />
-            <span className="text-blue-600 font-normal">Designed for you.</span>
+            <span className="text-emerald-600 font-normal">Designed for you.</span>
           </h2>
         </div>
 
@@ -33,23 +33,23 @@ export default function FeaturesSection() {
           {/* Large Card 1 - Security */}
           <div className="md:col-span-4 bg-white rounded-xl shadow-md p-10 relative overflow-hidden group hover:shadow-lg transition-all duration-500">
             <div className="relative z-10 max-w-sm">
-              <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                <Shield size={28} className="text-blue-600" />
+              <div className="w-14 h-14 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
+                <Shield size={28} className="text-emerald-600" />
               </div>
-              <h3 className="text-3xl font-bold text-blue-900 mb-3">
+              <h3 className="text-3xl font-bold text-emerald-900 mb-3">
                 Bank-grade Security
               </h3>
-              <p className="text-blue-700 text-lg">
+              <p className="text-emerald-700 text-lg">
                 Your assets are protected by state-of-the-art encryption and biometric
                 authentication.
               </p>
             </div>
-            <div className="absolute top-1/2 -right-10 w-64 h-64 bg-gradient-to-br from-blue-300/20 to-indigo-300/20 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
-            <Lock className="absolute bottom-[-20px] right-[-20px] text-blue-100 w-64 h-64 rotate-[-15deg] mix-blend-overlay" />
+            <div className="absolute top-1/2 -right-10 w-64 h-64 bg-gradient-to-br from-emerald-300/20 to-emerald-300/20 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
+            <Lock className="absolute bottom-[-20px] right-[-20px] text-emerald-100 w-64 h-64 rotate-[-15deg] mix-blend-overlay" />
           </div>
 
           {/* Small Card 2 - Speed */}
-          <div className="md:col-span-2 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl p-8 relative overflow-hidden group hover:shadow-lg transition-all duration-500 text-white">
+          <div className="md:col-span-2 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl p-8 relative overflow-hidden group hover:shadow-lg transition-all duration-500 text-white">
             <div className="relative z-10">
               <Zap size={32} className="mb-6 text-white" />
               <h3 className="text-2xl font-bold mb-2">Lightning Fast</h3>
@@ -61,7 +61,7 @@ export default function FeaturesSection() {
           </div>
 
           {/* Tall Card 3 - Mobile First */}
-          <div className="md:col-span-2 md:row-span-2 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-xl relative overflow-hidden group hover:shadow-lg transition-all duration-500 text-white flex flex-col justify-between h-full">
+          <div className="md:col-span-2 md:row-span-2 bg-gradient-to-br from-emerald-600 to-emerald-700 rounded-xl relative overflow-hidden group hover:shadow-lg transition-all duration-500 text-white flex flex-col justify-between h-full">
             
             <div className="absolute inset-0 z-0">
               <img
@@ -87,11 +87,11 @@ export default function FeaturesSection() {
 
           {/* Medium Card 4 - Global */}
           <div className="md:col-span-2 bg-white rounded-xl shadow-md p-8 group hover:shadow-lg transition-all duration-500">
-            <Globe size={32} className="mb-6 text-blue-600" />
-            <h3 className="text-xl font-bold text-blue-900 mb-2">
+            <Globe size={32} className="mb-6 text-emerald-600" />
+            <h3 className="text-xl font-bold text-emerald-900 mb-2">
               Global Access
             </h3>
-            <p className="text-blue-700">
+            <p className="text-emerald-700">
               Use your card anywhere in the world with no hidden fees.
             </p>
           </div>
@@ -117,16 +117,16 @@ export default function FeaturesSection() {
             </div>
 
             <div className="flex-1 relative z-10">
-              <h3 className="text-3xl font-bold text-blue-900 mb-3">
+              <h3 className="text-3xl font-bold text-emerald-900 mb-3">
                 24/7 Human Support
               </h3>
-              <p className="text-blue-700 text-lg mb-6">
+              <p className="text-emerald-700 text-lg mb-6">
                 Real people, real answers. Connect with our dedicated support team anytime, day or
                 night.
               </p>
               <a
                 href="/complaints"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg transition"
               >
                 Get Help <Users size={18} />
               </a>
@@ -145,7 +145,7 @@ export default function FeaturesSection() {
                   />
                 </div>
               ))}
-              <div className="w-16 h-16 rounded-full border-4 border-white bg-blue-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
+              <div className="w-16 h-16 rounded-full border-4 border-white bg-emerald-600 text-white flex items-center justify-center font-bold text-xl shadow-lg">
                 +
               </div>
             </div>

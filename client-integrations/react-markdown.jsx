@@ -12,7 +12,7 @@ const DEFAULT_COMPONENTS = {
   h5: ({ node, ...props }) => <h5 className="font-semibold text-lg" {...props} />,
   h6: ({ node, ...props }) => <h6 className="font-semibold text-base" {...props} />,
   p: ({ node, ...props }) => <p className="font-normal text-base leading-relaxed" {...props} />,
-  a: ({ node, ...props }) => <a className="text-blue-500 hover:underline" {...props} />,
+  a: ({ node, ...props }) => <a className="text-emerald-500 hover:underline" {...props} />,
   ul: ({ node, ...props }) => <ul className="list-inside list-disc" {...props} />,
   ol: ({ node, ...props }) => <ol className="list-inside list-decimal" {...props} />,
   li: ({ node, ...props }) => <li className="font-normal text-base leading-relaxed" {...props} />,

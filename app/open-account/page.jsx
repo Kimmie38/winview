@@ -18,7 +18,7 @@ import { useEffect, useState } from 'react';
 
 function OpenAccountHP() {
   const TOTAL_STEPS = 4;
-  const winviewGradient = 'from-[#7b5aff] to-[#5ecbf7]';
+  const winviewGradient = 'from-[#10B981] to-[#34D399]';
   const {
     currentStep,
     ippisForm,
@@ -101,7 +101,7 @@ function OpenAccountHP() {
 
 function OpenAccountSimple() {
   const TOTAL_STEPS = 3;
-  const winviewGradient = 'from-[#7b5aff] to-[#5ecbf7]';
+  const winviewGradient = 'from-[#10B981] to-[#34D399]';
   const {
     currentStep,
     formData,

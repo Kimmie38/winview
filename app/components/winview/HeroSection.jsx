@@ -117,11 +117,11 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full -mt-20 lg:-mt-28 pt-20 lg:pt-28 pb-20 px-6 overflow-hidden bg-gradient-to-b from-blue-50 via-white to-cyan-50"
+      className="relative w-full -mt-20 lg:-mt-28 pt-20 lg:pt-28 pb-20 px-6 overflow-hidden bg-gradient-to-b from-emerald-50 via-white to-emerald-50"
       onMouseMove={handleMouseMove}
     >
       {/* Bright gradient background */}
-      <div className="absolute inset-0 z-0 -top-20 lg:-top-28 bg-gradient-to-br from-blue-50 via-white to-cyan-50" />
+      <div className="absolute inset-0 z-0 -top-20 lg:-top-28 bg-gradient-to-br from-emerald-50 via-white to-emerald-50" />
 
       {/* Background Image - Extended to cover header */}
       <div className="absolute inset-0 z-0 -top-20 lg:-top-28 overflow-hidden">
@@ -139,7 +139,7 @@ export default function HeroSection() {
 
       {/* Dynamic Background Mesh - Bright and friendly */}
       <div
-        className="absolute top-[-40%] right-[-10%] w-[800px] h-[800px] bg-gradient-to-br from-blue-300/20 to-cyan-300/15 rounded-full blur-[80px] mix-blend-screen will-change-transform"
+        className="absolute top-[-40%] right-[-10%] w-[800px] h-[800px] bg-gradient-to-br from-emerald-300/20 to-emerald-300/15 rounded-full blur-[80px] mix-blend-screen will-change-transform"
         style={{
           animation: 'float 8s cubic-bezier(0.4, 0, 0.6, 1) infinite alternate',
           transform: `translate(${mousePosition.x * 20}px, ${mousePosition.y * 10}px)`,
@@ -153,7 +153,7 @@ export default function HeroSection() {
         }}
       />
       {/* Warm ambient glow */}
-      <div className="absolute top-[-10%] left-[20%] w-[500px] h-[500px] bg-gradient-to-br from-blue-200/12 to-purple-200/10 rounded-full blur-[80px] pointer-events-none" />
+      <div className="absolute top-[-10%] left-[20%] w-[500px] h-[500px] bg-gradient-to-br from-emerald-200/12 to-emerald-200/10 rounded-full blur-[80px] pointer-events-none" />
 
       <div className="w-full relative z-10 pt-12 lg:pt-16">
         <div className={`grid lg:grid-cols-2 gap-8 lg:gap-16 items-center auto-rows-max`}>
@@ -203,7 +203,7 @@ export default function HeroSection() {
             >
               <a
                 href="/open-account"
-                className="btn-primary w-full sm:w-auto rounded-lg flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold text-lg px-8 py-4"
+                className="btn-primary w-full sm:w-auto rounded-lg flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white font-bold text-lg px-8 py-4"
               >
                 <span>Open Account</span>
                 <ArrowRight size={20} />

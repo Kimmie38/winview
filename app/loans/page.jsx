@@ -20,7 +20,7 @@ export default function LoansPage() {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => setIsVisible(true), []);
 
-  const winviewGradient = 'from-[#8A2BE2] to-[#00BFFF]';
+  const winviewGradient = 'from-[#10B981] to-[#34D399]';
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] relative overflow-hidden">
@@ -95,7 +95,7 @@ export default function LoansPage() {
                   <div
                     className="mx-auto mt-5 h-1 w-28 rounded-full"
                     style={{
-                      backgroundImage: 'linear-gradient(90deg, #0A84FF, #8A2BE2, #30D158, #0A84FF)',
+                      backgroundImage: 'linear-gradient(90deg, #10B981, #34D399, #10B981, #34D399)',
                       backgroundSize: '200% 100%',
                       animation: 'shine 2.4s ease-in-out infinite alternate',
                     }}
@@ -130,8 +130,8 @@ export default function LoansPage() {
                 amount: 'Up to ₦350,000',
                 desc: 'Get the tools you need, pay over time with zero stress.',
                 icon: Smartphone,
-                iconBg: 'from-[#007AFF] to-[#0051D0]',
-                color: '#007AFF',
+                iconBg: 'from-[#10B981] to-[#059669]',
+                color: '#10B981',
                 features: ['0% down payment', '12-month terms', 'Latest devices'],
               },
             ].map((o, i) => (

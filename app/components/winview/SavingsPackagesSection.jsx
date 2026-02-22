@@ -7,7 +7,7 @@ export default function SavingsPackagesSection() {
       title: 'School Fees',
       description: "Save towards your child's term fees with auto‑savings and reminders.",
       icon: GraduationCap,
-      accentBg: 'from-[#007AFF]/15 to-[#5AC8FA]/15',
+      accentBg: 'from-[#10B981]/15 to-[#34D399]/15',
       chipText: 'For parents',
     },
     {

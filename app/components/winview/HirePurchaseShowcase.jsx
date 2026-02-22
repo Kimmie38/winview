@@ -118,7 +118,7 @@ export default function HirePurchaseShowcase() {
           }`}
         >
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 backdrop-blur border border-white/60 shadow-sm">
-            <ShieldCheck size={16} className="text-[#007AFF]" />
+            <ShieldCheck size={16} className="text-[#10B981]" />
             <span className="text-xs font-semibold text-[#1D1D1F]" style={iosFont}>
               Hire Purchase Program
             </span>
