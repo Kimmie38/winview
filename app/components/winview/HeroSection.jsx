@@ -117,24 +117,24 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full -mt-20 lg:-mt-28 pt-20 lg:pt-28 pb-20 px-6 overflow-hidden bg-gradient-to-b from-emerald-50 via-white to-emerald-50"
+      className="relative w-full -mt-20 lg:-mt-28 pt-20 lg:pt-28 pb-20 px-6 overflow-hidden bg-gradient-to-b from-emerald-100 via-emerald-50 to-emerald-50"
       onMouseMove={handleMouseMove}
     >
-      {/* Bright gradient background */}
-      <div className="absolute inset-0 z-0 -top-20 lg:-top-28 bg-gradient-to-br from-emerald-50 via-white to-emerald-50" />
+      {/* Darker gradient background */}
+      <div className="absolute inset-0 z-0 -top-20 lg:-top-28 bg-gradient-to-br from-emerald-100 via-emerald-50 to-emerald-50" />
 
       {/* Background Image - Extended to cover header */}
       <div className="absolute inset-0 z-0 -top-20 lg:-top-28 overflow-hidden">
      <img
         src="https://raw.createusercontent.com/e4c7154d-a7bb-4f7a-9126-0a9ba6fa1e50/"
         alt="Abstract Background"
-        className="w-full h-[calc(100%+5rem)] lg:h-[calc(100%+7rem)] object-cover opacity-[0.08] mix-blend-overlay transition-opacity duration-700 ease-out"
+        className="w-full h-[calc(100%+5rem)] lg:h-[calc(100%+7rem)] object-cover opacity-[0.12] mix-blend-overlay transition-opacity duration-700 ease-out"
         decoding="async"
         fetchPriority="high"
       />
 
-        {/* Light overlay for brightness */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/30 to-white/60" />
+        {/* Darker overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-emerald-50/40 to-emerald-100/50" />
       </div>
 
       {/* Dynamic Background Mesh - Bright and friendly */}
@@ -169,7 +169,7 @@ export default function HeroSection() {
               style={{
                 fontFamily:
                   '-apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif',
-                animation: 'fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both',
+                animation: 'fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.05s both',
                 letterSpacing: '-0.02em',
               }}
             >
@@ -186,7 +186,7 @@ export default function HeroSection() {
               style={{
                 fontFamily:
                   '-apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif',
-                animation: 'fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both',
+                animation: 'fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s both',
               }}
             >
               Experience the fluidity of modern finance. Intelligent, secure, and designed for your
@@ -198,7 +198,7 @@ export default function HeroSection() {
               ref={ctaRef}
               className="anim-button delay-200 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 lg:gap-5"
               style={{
-                animation: 'fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s both',
+                animation: 'fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s both',
               }}
             >
               <a
@@ -225,7 +225,7 @@ export default function HeroSection() {
             <div
               className="mt-14 lg:mt-16 flex items-center gap-6 text-gray-900 text-base font-bold"
               style={{
-                animation: 'fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both',
+                animation: 'fadeInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both',
               }}
             >
               <div className="flex -space-x-2">
