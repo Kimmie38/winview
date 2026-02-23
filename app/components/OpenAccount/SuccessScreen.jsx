@@ -1,5 +1,5 @@
-import Footer from '@/components/winview/Footer';
-import Header from '@/components/winview/Header';
+import Footer from '../../components/winview/Footer';
+import Header from '../../components/winview/Header';
 import { Check, Heart } from 'lucide-react';
 
 export function SuccessScreen({ email, winviewGradient }) {

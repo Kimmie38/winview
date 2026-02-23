@@ -1,19 +1,19 @@
 'use client';
 
-import AccountMandateCTermsStep from '@/components/OpenAccount/AccountMandateCTermsStep';
-import { AccountOpeningBStep } from '@/components/OpenAccount/AccountOpeningBStep';
-import { ContactInfoStep } from '@/components/OpenAccount/ContactInfoStep';
-import { FormNavigation } from '@/components/OpenAccount/FormNavigation';
-import { IppisFormStep } from '@/components/OpenAccount/IppisFormStep';
-import { PageHeader } from '@/components/OpenAccount/PageHeader';
-import { PersonalInfoStep } from '@/components/OpenAccount/PersonalInfoStep';
-import { ProgressIndicator } from '@/components/OpenAccount/ProgressIndicator';
-import ReferenceFormDStep from '@/components/OpenAccount/ReferenceFormDStep';
-import { ReviewStep } from '@/components/OpenAccount/ReviewStep';
-import { SuccessScreen } from '@/components/OpenAccount/SuccessScreen';
-import Footer from '@/components/winview/Footer';
-import Header from '@/components/winview/Header';
-import { useOpenAccountForm } from '@/hooks/useOpenAccountForm';
+import AccountMandateCTermsStep from '../components/OpenAccount/AccountMandateCTermsStep';
+import { AccountOpeningBStep } from '../components/OpenAccount/AccountOpeningBStep';
+import { ContactInfoStep } from '../components/OpenAccount/ContactInfoStep';
+import { FormNavigation } from '../components/OpenAccount/FormNavigation';
+import { IppisFormStep } from '../components/OpenAccount/IppisFormStep';
+import { PageHeader } from '../components/OpenAccount/PageHeader';
+import { PersonalInfoStep } from '../components/OpenAccount/PersonalInfoStep';
+import { ProgressIndicator } from '../components/OpenAccount/ProgressIndicator';
+import ReferenceFormDStep from '../components/OpenAccount/ReferenceFormDStep';
+import { ReviewStep } from '../components/OpenAccount/ReviewStep';
+import { SuccessScreen } from '../components/OpenAccount/SuccessScreen';
+import Footer from '../components/winview/Footer';
+import Header from '../components/winview/Header';
+import { useOpenAccountForm } from '../../hooks/useOpenAccountForm';
 import { useEffect, useState } from 'react';
 
 function OpenAccountHP() {

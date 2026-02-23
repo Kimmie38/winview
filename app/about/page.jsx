@@ -1,5 +1,5 @@
-import Footer from '@/components/winview/Footer';
-import Header from '@/components/winview/Header';
+import Footer from '../components/winview/Footer';
+import Header from '../components/winview/Header';
 import { Briefcase, Home, Rocket } from 'lucide-react';
 
 export default function AboutPage() {

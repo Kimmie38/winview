@@ -1,5 +1,4 @@
 import React from 'react';
-import mockApi from '@/utils/mockApi';
 
 function useUpload() {
   const [loading, setLoading] = React.useState(false);
@@ -7,7 +6,6 @@ function useUpload() {
     try {
       setLoading(true);
 
-      // Use mock API for file upload
       const mimeType = input.file?.type || input.mimeType || 'application/octet-stream';
       const result = await mockApi.uploadFile({ mimeType });
 

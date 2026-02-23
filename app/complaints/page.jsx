@@ -1,10 +1,9 @@
 'use client';
 
-import Footer from '@/components/winview/Footer';
-import Header from '@/components/winview/Header';
+import Footer from '../components/winview/Footer';
+import Header from '../components/winview/Header';
 import { Check, Phone } from 'lucide-react';
 import { useState } from 'react';
-import mockApi from '@/utils/mockApi';
 
 export default function ComplaintsPage() {
   const [formData, setFormData] = useState({

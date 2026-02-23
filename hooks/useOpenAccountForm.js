@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import mockApi from '@/utils/mockApi';
 
 export function useOpenAccountForm(config = {}) {
   const initialStep = Number(config.initialStep || 1);
