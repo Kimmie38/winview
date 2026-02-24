@@ -58,11 +58,11 @@ export default function Header() {
                     alt="Winview Logo"
                     width={300}
                     height={300}
-                    className="w-66 lg:w-70 h-auto object-contain"
+                    className="w-62 lg:w-66 h-auto object-contain"
                     priority
                   />
                 </div>
-                <div className="flex flex-col leading-[0.95] -ml-24">
+                <div className="flex flex-col leading-[0.95] -ml-20">
                   <span className="text-2xl lg:text-3xl font-black text-gray-800 tracking-tight">
                     Winview
                   </span>
